@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="Add">
+        <p>Utwórz notatkę</p>
+    </div>
+
+    <div id="OpenForm">
+        <form>
+            <input type="text" name="title" id="title" placeholder="Tytuł notatki">
+            <input type="text" name="value" id="value" placeholder="Treść notatki.">
+            <select>
+                    <option value="rgba(255, 0, 0, 0.6)" style="color:red">Czerwony</option>
+                    <option value="rgba(0, 128, 0, 0.6)" style="color:green">Zielony</option>
+                    <option value="rgba(0,0,255,0.6)" style="color:blue">Niebieski</option>
+                </select><br />
+            <input type="submit" value="Utwórz" id="Submit">
+        </form>
+    </div>
+
+    <div id="Tasks"></div>
+    <script src="main.js"></script>
+</body>
+
+</html>

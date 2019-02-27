@@ -1,0 +1,111 @@
+* {
+    margin: 10;
+    padding: 0;
+}
+
+body {
+    background: url("background.jpg");
+    /*background-color: grey;*/
+}
+
+#Add {
+    cursor: pointer;
+    position: relative;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 10px;
+    background-color: green;
+    color: white;
+    font-weight: 900;
+    top: 0px;
+    left: 0px;
+}
+
+#OpenForm {
+    display: none;
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    left: 50%;
+    border: 2px solid white;
+    background-color: BurlyWood;
+    margin-left: -25%;
+    z-index: 1;
+}
+
+form input[type=text] {
+    display: block;
+    margin: 5% 30%;
+}
+
+form input[type=submit] {
+    padding: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+    background: silver;
+    margin-top: 5%;
+    margin-left: 40%;
+}
+
+form select {
+    margin-top: 2%;
+    margin-left: 35%;
+}
+
+/*
+#Tasks {
+    border: 4px solid red;
+    position: relative;
+    height: auto;
+    width: 450px;
+    margin: auto;
+    top: 300px;
+    padding: 15px;
+    line-height: 50%;
+}
+*/
+
+.task {
+    border: 4px solid blue;
+    margin: 15px;
+    padding: 15px;
+    background-color: aliceblue;
+    position: relative;
+}
+
+.delete1,
+.delete2 {
+    width: 20px;
+    height: 5px;
+    position: relative;
+    background-color: black;
+}
+
+.delete1 {
+    transform: rotate(45deg);
+}
+
+.delete2 {
+    transform: rotate(-45deg);
+    bottom: 5px;
+}
+
+.pin {
+    position: relative;
+    margin-left: 300px;
+    border: 3px solid orangered;
+    padding: 2px;
+    width: 80px;
+    height: 40px;
+    line-height: 20px;
+    font-weight: 900;
+    background-color: burlywood
+}
+
+.task:first-child {
+    border: 6px solid red;
+    margin-bottom: 15px;
+}
